@@ -32,7 +32,7 @@ jobs:
 
       - name: Setup Flyway
         # You may also reference the major or major.minor version
-        uses: im-open/setup-flyway@v1.1.3
+        uses: Crediayni/setup-flyway@v1.1.3
         with:
           version: 5.1.4
 
@@ -85,4 +85,4 @@ This action uses [git-version-lite] to examine commit messages to determine whet
 | minor          | +semver:minor                               |
 | patch          | *default increment type, no comment needed* |
 
-[git-version-lite]: https://github.com/im-open/git-version-lite
+[git-version-lite]: https://github.com/Crediayni/git-version-lite
