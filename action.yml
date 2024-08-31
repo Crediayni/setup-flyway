@@ -1,0 +1,14 @@
+name: Setup Flyway
+
+description: Downloads and installs flyway at the specified version
+
+inputs:
+  version:
+    description: The version of flyway to install
+    required: true
+  architecture:
+    description: 'Target operating system architecture for Flyway to use. Examples: x86, x64. Will use system architecture by default.'
+    required: false
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
